@@ -1,1 +1,9 @@
 # Automacao_Oracle_Database
+--> O script ConfiguraçãoInstaçãoBanco19cRPM3 eu desenvolvi para automatizar a instalação do Oracle Database 19c em ambientes Linux. Este script simplifica todo o processo de instalação, realizando tarefas como configuração de hosts, desabilitação do SELinux, abertura de portas de firewall, instalação do pacote pre install do Oracle Database, alteração da senha do usuário Oracle e a criação do banco de dados e do listener.
+ É importante ressaltar que o uso de scripts de automação requer um conhecimento prévio do processo de instalação do banco de dados Oracle. Eu decidi automatizar o processo após realizar várias instalações manuais do Oracle 19c e perceber a repetitividade das tarefas envolvidas.
+O script foi cuidadosamente testado e validado. Em caso de qualquer erro durante o processo de instalação, o script detectará o problema e cancelará a execução, garantindo uma experiência segura e confiável.
+Estou disponibilizando o script caso alguém queira testar em seu laboratório, adaptando-o conforme necessário para seu próprio ambiente. Sinta-se à vontade para fazer ajustes e personalizações de acordo com suas configurações específicas.
+
+--> O script Oracle_FRA_Space_Monitor, ao adicionar este script à sua crontab, ele executará automaticamente uma consulta para verificar o espaço utilizado na sua Fast Recovery Area (FRA). Configurado com a porcentagem desejada, o script enviará um e-mail de alerta quando a FRA atingir esse limite.
+Este projeto me permitiu explorar mais sobre automação de tarefas em bancos de dados Oracle e a utilização de Shell Script para monitoramento proativo. Personalize o script conforme seu ambiente e necessidades específicas, ajustando a porcentagem de alerta conforme desejado.
+Disponível para Testes: Estou disponibilizando este script para que você possa testá-lo em seu laboratório. Adapte-o ao seu ambiente, adicione à sua crontab e ajuste a execução de acordo com suas necessidades.
